@@ -11,6 +11,7 @@
 		7D38411C29DA150900AAD1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38411B29DA150900AAD1E1 /* ContentView.swift */; };
 		7D38411E29DA150900AAD1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38411D29DA150900AAD1E1 /* Assets.xcassets */; };
 		7D38412129DA150900AAD1E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38412029DA150900AAD1E1 /* Preview Assets.xcassets */; };
+		7DC9EAB829DB53A70031A266 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9EAB729DB53A70031A266 /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7D38411B29DA150900AAD1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D38411D29DA150900AAD1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D38412029DA150900AAD1E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DC9EAB729DB53A70031A266 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		7D38411829DA150900AAD1E1 /* Fruit-App */ = {
 			isa = PBXGroup;
 			children = (
-				7D38411929DA150900AAD1E1 /* Fruit_AppApp.swift */,
-				7D38411B29DA150900AAD1E1 /* ContentView.swift */,
+				7DC9EAB629DB53790031A266 /* View */,
+				7DC9EAB529DB534A0031A266 /* App */,
 				7D38411D29DA150900AAD1E1 /* Assets.xcassets */,
 				7D38411F29DA150900AAD1E1 /* Preview Content */,
 			);
@@ -65,6 +67,23 @@
 				7D38412029DA150900AAD1E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DC9EAB529DB534A0031A266 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7D38411929DA150900AAD1E1 /* Fruit_AppApp.swift */,
+				7D38411B29DA150900AAD1E1 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7DC9EAB629DB53790031A266 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DC9EAB729DB53A70031A266 /* FruitCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC9EAB829DB53A70031A266 /* FruitCardView.swift in Sources */,
 				7D38411C29DA150900AAD1E1 /* ContentView.swift in Sources */,
 				7D38411A29DA150900AAD1E1 /* Fruit_AppApp.swift in Sources */,
 			);
@@ -269,11 +289,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fruit-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fructus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,11 +319,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fruit-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fructus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

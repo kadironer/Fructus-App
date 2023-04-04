@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D38411A29DA150900AAD1E1 /* Fruit_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38411929DA150900AAD1E1 /* Fruit_AppApp.swift */; };
+		7D38411A29DA150900AAD1E1 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38411929DA150900AAD1E1 /* FructusApp.swift */; };
 		7D38411C29DA150900AAD1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38411B29DA150900AAD1E1 /* ContentView.swift */; };
 		7D38411E29DA150900AAD1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38411D29DA150900AAD1E1 /* Assets.xcassets */; };
 		7D38412129DA150900AAD1E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38412029DA150900AAD1E1 /* Preview Assets.xcassets */; };
 		7DC9EAB829DB53A70031A266 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9EAB729DB53A70031A266 /* FruitCardView.swift */; };
+		7DE9D46729DC3B1000980662 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9D46629DC3B1000980662 /* StartButtonView.swift */; };
+		7DE9D46929DC3DD800980662 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9D46829DC3DD800980662 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D38411629DA150900AAD1E1 /* Fruit-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruit-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D38411929DA150900AAD1E1 /* Fruit_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_AppApp.swift; sourceTree = "<group>"; };
+		7D38411929DA150900AAD1E1 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		7D38411B29DA150900AAD1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D38411D29DA150900AAD1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D38412029DA150900AAD1E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DC9EAB729DB53A70031A266 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		7DE9D46629DC3B1000980662 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		7DE9D46829DC3DD800980662 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +76,9 @@
 		7DC9EAB529DB534A0031A266 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				7D38411929DA150900AAD1E1 /* Fruit_AppApp.swift */,
+				7D38411929DA150900AAD1E1 /* FructusApp.swift */,
 				7D38411B29DA150900AAD1E1 /* ContentView.swift */,
+				7DE9D46829DC3DD800980662 /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				7DC9EAB729DB53A70031A266 /* FruitCardView.swift */,
+				7DE9D46629DC3B1000980662 /* StartButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DC9EAB829DB53A70031A266 /* FruitCardView.swift in Sources */,
+				7DE9D46729DC3B1000980662 /* StartButtonView.swift in Sources */,
 				7D38411C29DA150900AAD1E1 /* ContentView.swift in Sources */,
-				7D38411A29DA150900AAD1E1 /* Fruit_AppApp.swift in Sources */,
+				7DE9D46929DC3DD800980662 /* OnboardingView.swift in Sources */,
+				7D38411A29DA150900AAD1E1 /* FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

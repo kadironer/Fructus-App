@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let frutisData: [Fruit] = [
+let fruitsData: [Fruit] = [
     Fruit(
         title: "Blueberry",
         headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",

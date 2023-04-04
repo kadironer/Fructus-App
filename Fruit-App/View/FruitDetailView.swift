@@ -38,8 +38,6 @@ struct FruitDetailView: View {
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
                 }
-                .navigationBarTitle(fruit.title, displayMode: .inline)
-                .navigationBarHidden(true)
             }
             .edgesIgnoringSafeArea(.top)
         }
